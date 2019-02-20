@@ -1,7 +1,8 @@
 import numpy as np
+from .metrics import r_squared
 
 
-class SimpleLinearRegression1:
+class SimpleLinearRegression2:
     def __init__(self):
         self.a_ = None
         self.b_ = None
@@ -11,8 +12,7 @@ class SimpleLinearRegression1:
         assert len(x_train) == len(y_train)
         x_mean = x_train.mean()
         y_mean = y_train.mean()
-        self.a_ = np.sum([(i - x_mean) * (j - y_mean) for i, j in zip(x_train, y_train)]) / np.sum(
-            [(i - x_mean) ** 2 for i in x_train])
+        self.a_ = (x_train - x_mean).dot(y_train - y_mean) / (x_train - x_mean).dot(x_train - x_mean)
         self.b_ = y_mean - self.a_ * x_mean
 
     def predict(self, x: int or float or np.ndarray) -> np.ndarray:
@@ -21,7 +21,9 @@ class SimpleLinearRegression1:
             return np.array([self.a_ * x + self.b_])
         else:
             assert x.ndim == 1
-            y = []
-            for i in x:
-                y.append(self.a_ * x + self.b_)
-            return np.array(y)
+            return self.a_ * x + self.b_
+
+    def score(self, x_test, y_test):
+        assert self.a_ is not None and self.b_ is not None
+        y_predict = self.predict(x_test)
+        return r_squared(y_test, y_predict)
