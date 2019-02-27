@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3194805-6115-489c-b9ff-e450e5800126" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LinearRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleLinearRegression2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.ipynb_checkpoints/LinearRegression-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../.ipynb_checkpoints/LinearRegression-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../222.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../50.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LinearRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../LinearRegression.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpeLinearRegression1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleLinearRegression1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearRegression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleLinearRegression1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleLinearRegression1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleLinearRegression2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleLinearRegression2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_90.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +33,8 @@
     <session id="436465967">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,14 +49,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
-          <entry key="py" value="1624" />
+          <entry key="dummy" value="7" />
+          <entry key="py" value="2369" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="1624" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="2369" />
         </counts>
       </usages-collector>
     </session>
@@ -53,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -74,10 +87,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SimpleLinearRegression1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="272">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
-                <marker date="1550637483295" expanded="true" signature="51:56" ph="..." />
+                <marker date="1550735314677" expanded="true" signature="51:56" ph="..." />
               </folding>
             </state>
           </provider>
@@ -86,34 +99,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SimpleLinearRegression2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="255">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1550662624962" expanded="true" signature="82:83" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinearRegression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1550675462321" expanded="true" signature="75:80" ph="..." />
+                <marker date="1550735314699" expanded="true" signature="82:83" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LinearRegression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1550741008172" expanded="true" signature="124:129" ph="..." />
+                <marker date="1550741008172" expanded="true" signature="819:2672" ph="..." />
+                <marker date="1550741008172" expanded="true" signature="2011:2054" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -122,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/metrics.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <marker date="1550661947336" expanded="true" signature="228:233" ph="..." />
                 <marker date="1550661947336" expanded="true" signature="389:394" ph="..." />
@@ -155,12 +170,12 @@
       <list>
         <option value="$PROJECT_DIR$/util.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/KNN.py" />
         <option value="$PROJECT_DIR$/preprocessing.py" />
         <option value="$PROJECT_DIR$/SimpeLinearRegression1.py" />
-        <option value="$PROJECT_DIR$/SimpleLinearRegression1.py" />
         <option value="$PROJECT_DIR$/metrics.py" />
         <option value="$PROJECT_DIR$/SimpleLinearRegression2.py" />
+        <option value="$PROJECT_DIR$/SimpleLinearRegression1.py" />
+        <option value="$PROJECT_DIR$/KNN.py" />
         <option value="$PROJECT_DIR$/LinearRegression.py" />
       </list>
     </option>
@@ -171,10 +186,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="60" />
-    <option name="width" value="1767" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="59" />
+    <option name="width" value="1768" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,7 +215,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/PeopleCn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -265,10 +280,10 @@
     <option name="totallyTimeSpent" value="7361000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26652452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24786781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -319,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/KNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -334,13 +349,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/SimpleLinearRegression1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <marker date="1550735314677" expanded="true" signature="51:56" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleLinearRegression2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1550735314699" expanded="true" signature="82:83" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/metrics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <marker date="1550661947336" expanded="true" signature="228:233" ph="..." />
             <marker date="1550661947336" expanded="true" signature="389:394" ph="..." />
@@ -350,42 +390,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleLinearRegression1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-          <folding>
-            <marker date="1550637483295" expanded="true" signature="51:56" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleLinearRegression2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1550662624962" expanded="true" signature="82:83" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="816">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1550675462321" expanded="true" signature="75:80" ph="..." />
+            <marker date="1550741008172" expanded="true" signature="124:129" ph="..." />
+            <marker date="1550741008172" expanded="true" signature="819:2672" ph="..." />
+            <marker date="1550741008172" expanded="true" signature="2011:2054" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

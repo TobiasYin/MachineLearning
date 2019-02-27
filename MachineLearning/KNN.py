@@ -15,6 +15,7 @@ class KNNClassifier:
         assert X_train.shape[0] == y_train.shape[0]
         self.train_x = X_train
         self.train_y = y_train
+        return self
 
     def __knn_classify(self, x: np.ndarray) -> int:
         distances = [sqrt(np.sum((x_train - x) ** 2)) for x_train in self.train_x]

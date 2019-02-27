@@ -14,6 +14,7 @@ class SimpleLinearRegression1:
         self.a_ = np.sum([(i - x_mean) * (j - y_mean) for i, j in zip(x_train, y_train)]) / np.sum(
             [(i - x_mean) ** 2 for i in x_train])
         self.b_ = y_mean - self.a_ * x_mean
+        return self
 
     def predict(self, x: int or float or np.ndarray) -> np.ndarray:
         assert self.a_ is not None and self.b_ is not None

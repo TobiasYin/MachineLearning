@@ -14,6 +14,7 @@ class SimpleLinearRegression2:
         y_mean = y_train.mean()
         self.a_ = (x_train - x_mean).dot(y_train - y_mean) / (x_train - x_mean).dot(x_train - x_mean)
         self.b_ = y_mean - self.a_ * x_mean
+        return self
 
     def predict(self, x: int or float or np.ndarray) -> np.ndarray:
         assert self.a_ is not None and self.b_ is not None
