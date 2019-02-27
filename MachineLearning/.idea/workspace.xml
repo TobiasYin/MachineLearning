@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3194805-6115-489c-b9ff-e450e5800126" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../111.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinearRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../LinearRegression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleLinearRegression1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleLinearRegression1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleLinearRegression2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleLinearRegression2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test_90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../PCA.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,29 +17,30 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="py" value="2369" />
+          <entry key="py" value="2852" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="2369" />
+          <entry key="Python" value="2852" />
         </counts>
       </usages-collector>
     </session>
@@ -109,16 +93,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="198">
+              <caret line="39" column="66" lean-forward="true" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <marker date="1550741008172" expanded="true" signature="124:129" ph="..." />
                 <marker date="1550741008172" expanded="true" signature="819:2672" ph="..." />
                 <marker date="1550741008172" expanded="true" signature="2011:2054" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PCA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+              <folding>
+                <marker date="1551281848448" expanded="true" signature="31:36" ph="..." />
+                <marker date="1551281848448" expanded="true" signature="440:912" ph="..." />
               </folding>
             </state>
           </provider>
@@ -177,6 +174,7 @@
         <option value="$PROJECT_DIR$/SimpleLinearRegression1.py" />
         <option value="$PROJECT_DIR$/KNN.py" />
         <option value="$PROJECT_DIR$/LinearRegression.py" />
+        <option value="$PROJECT_DIR$/PCA.py" />
       </list>
     </option>
   </component>
@@ -197,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,6 +206,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -283,7 +281,7 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24786781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25053304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -301,7 +299,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3298647" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32896653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -395,13 +393,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="198">
+          <caret line="39" column="66" lean-forward="true" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <marker date="1550741008172" expanded="true" signature="124:129" ph="..." />
             <marker date="1550741008172" expanded="true" signature="819:2672" ph="..." />
             <marker date="1550741008172" expanded="true" signature="2011:2054" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+          <folding>
+            <marker date="1551281848448" expanded="true" signature="31:36" ph="..." />
+            <marker date="1551281848448" expanded="true" signature="440:912" ph="..." />
           </folding>
         </state>
       </provider>
